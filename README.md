@@ -49,9 +49,9 @@ CUDA_VISIBLE_DEVICES=0 python image_target_of_oh_vs.py --cfg "cfgs/office-home/s
 ### Target
 After obtaining the source models, modify the `${CKPT_DIR}` in the `conf.py` to your source model directory. For office-31, office-home and VISDA-C, simply run the following Python file with the corresponding config file to execute source-free domain adaptation.
 ```bash
-CUDA_VISIBLE_DEVICES=0 python image_target_of_oh_vs.py --cfg "cfgs/office-home/difo.yaml" SETTING.S 0 SETTING.T 1
+CUDA_VISIBLE_DEVICES=0 python image_target_of_oh_vs.py --cfg "cfgs/office-home/difoplus.yaml" SETTING.S 0 SETTING.T 1
 ```
 For domainnet126 and ImageNet variations.
 ```bash
-CUDA_VISIBLE_DEVICES=0 python image_target_in_126.py --cfg "cfgs/domainnet126/difo.yaml" SETTING.S 0 SETTING.T 1
+CUDA_VISIBLE_DEVICES=0 python image_target_in_126.py --cfg "cfgs/domainnet126/difoplus.yaml" SETTING.S 0 SETTING.T 1
 ```
