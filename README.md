@@ -1,4 +1,4 @@
-# DIFO-PLUS
+# DIFO-Plus
 
 It was developed by Yunxiang Bai. If you encounter any issues or have questions, please don't hesitate to contact yunxiang at baiyunxiang11@gmail.com. 
 
