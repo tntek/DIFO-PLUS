@@ -53,12 +53,3 @@ For domainnet126 and ImageNet variations.
 ```bash
 CUDA_VISIBLE_DEVICES=0 python image_target_in_126.py --cfg "cfgs/domainnet126/difo.yaml" SETTING.S 0 SETTING.T 1
 ```
-
-## Acknowledgements
-+ SHOT [official](https://github.com/tim-learn/SHOT)
-+ NRC [official](https://github.com/Albert0147/NRC_SFDA)
-+ COWA [official](https://github.com/Jhyun17/CoWA-JMDS)
-+ AdaContrast [official](https://github.com/DianCh/AdaContrast)
-+ PLUE [official](https://github.com/MattiaLitrico/Guiding-Pseudo-labels-with-Uncertainty-Estimation-for-Source-free-Unsupervised-Domain-Adaptation)
-+ CoOp [official](https://github.com/KaiyangZhou/CoOp)
-+ RMT [official](https://github.com/mariodoebler/test-time-adaptation)
