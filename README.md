@@ -13,11 +13,6 @@ conda activate difoplus
   - `office-home` [Office-Home](https://drive.google.com/file/d/0B81rNlvomiwed0V1YUxQdC1uOTg/view)
   - `VISDA-C` [VISDA-C](https://github.com/VisionLearningGroup/taskcv-2017-public/tree/master/classification)
   - `domainnet126` [DomainNet (cleaned)](http://ai.bu.edu/M3SDA/)
-  - `imagenet_a` [ImageNet-A](https://github.com/hendrycks/natural-adv-examples)
-  - `imagenet_r` [ImageNet-R](https://github.com/hendrycks/imagenet-r)
-  - `imagenet_v2` [ImageNet-V2](https://huggingface.co/datasets/vaishaal/ImageNetV2/tree/main)
-  - `imagenet_k` [ImageNet-Sketch](https://github.com/HaohanWang/ImageNet-Sketch)
-
 You need to download the above dataset,modify the path of images in each '.txt' under the folder './data/'.In addition, class name files for each dataset also under the folder './data/'.The prepared directory would look like:
 ```bash
 ├── data
