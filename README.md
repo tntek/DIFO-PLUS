@@ -1,5 +1,7 @@
 # DIFOPLUS
 
+It was developed by Yunxiang Bai. If you encounter any issues or have questions, please don't hesitate to contact yunxiang at baiyunxiang11@gmail.com. 
+
 ## Preliminary
 
 To use the repository, we provide a conda environment.
