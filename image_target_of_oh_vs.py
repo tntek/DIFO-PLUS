@@ -3,7 +3,7 @@ import numpy as np
 import torch
 import random
 import time
-import src.methods.oh.difoplus as difoplus
+import src.methods.oh.difoplus as DIFOPLUS
 import src.methods.oh.source as SOURCE
 from conf import cfg, load_cfg_from_args
 
@@ -24,15 +24,10 @@ if __name__ == "__main__":
     random.seed(cfg.SETTING.SEED)
     torch.backends.cudnn.benchmark = cfg.CUDNN.BENCHMARK
 
-    if cfg.SETTING.DATASET == 'office-home':
-        if cfg.DA == 'pda':
-            cfg.class_num = 65
-            cfg.src_classes = [i for i in range(65)]
-            cfg.tar_classes = [i for i in range(25)]
-
     if cfg.MODEL.METHOD == "difoplus":
         print("using difoplus method")
-        acc = difoplus.train_target(cfg)
+        acc = DIFOPLUS.train_target(cfg)
+
     elif cfg.MODEL.METHOD == "source":
         print("training source model")
         acc = SOURCE.train_source(cfg)

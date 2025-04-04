@@ -29,6 +29,8 @@ if __name__ == "__main__":
             cfg.class_num = 65
             cfg.src_classes = [i for i in range(65)]
             cfg.tar_classes = [i for i in range(25)]
+
+            
     elif cfg.MODEL.METHOD == "difoplus":
         print("using difoplus method")
         acc = difoplus.train_target(cfg)

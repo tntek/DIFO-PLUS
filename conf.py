@@ -23,10 +23,10 @@ cfg = _C
 
 # Setting - see README.md for more information
 # Data directory
-_C.DATA_DIR = "/media/ts/tntbak2/Datazoom"
+_C.DATA_DIR = "/home/imi/data1/project/Datazoom"
 
 # Weight directory
-_C.CKPT_DIR = "/media/ts/tntbak2/Modelzoom"
+_C.CKPT_DIR = "/home/imi/data1/project/Modelzoom"
 
 # GPU id
 _C.GPU_ID = '0'
