@@ -30,7 +30,7 @@ if __name__ == "__main__":
             cfg.src_classes = [i for i in range(65)]
             cfg.tar_classes = [i for i in range(25)]
 
-    elif cfg.MODEL.METHOD == "difoplus":
+    if cfg.MODEL.METHOD == "difoplus":
         print("using difoplus method")
         acc = difoplus.train_target(cfg)
     elif cfg.MODEL.METHOD == "source":
