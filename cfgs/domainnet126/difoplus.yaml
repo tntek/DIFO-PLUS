@@ -1,6 +1,6 @@
 MODEL:
   ARCH: resnet50
-  METHOD: tsd
+  METHOD: difoplus
 SETTING:
   DATASET: domainnet126
   S: 0
@@ -17,7 +17,7 @@ TEST:
   BATCH_SIZE: 64
   MAX_EPOCH: 15
   INTERVAL: 15
-TSD:
+DIFOPLUS:
   CLS_PAR: 0.4
   EPSILON : 1e-5
   GENT_PAR: 1.0
